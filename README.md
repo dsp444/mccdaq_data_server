@@ -1,5 +1,5 @@
 # mccdaq_data_server
-A collection of python scripts to send data collected by a Measurement Computing MCC 118 DAQ HAT and Raspeberry Pi over a TCP port.
+A collection of python scripts to send data collected by a Measurement Computing MCC 118 DAQ HAT and Raspberry Pi over a TCP port.
 
 There are 4 related scripts included here - all of which can be run independetly.
 1) live_mccdaq_data_server.py - this script reads data (in differential mode) from 2 inputs of the MCC 188 DAQ HAT and sends it in realtime to clients which are connected to the server
